@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<base target="_blank">
+</head>
+<body bgcolor="lightblue">
+	<fieldset>
+		<legend><h1>REGISTER</h1></legend>
+		<form action="blog1.html" method="post">
+		<table align="center" border="1" cellspacing="0px" bgcolor="lightgreen" cellpadding="10px" bordercolor ="black">
+		<tr>
+			<td><label for="firstname">firstname</label></td>
+			<td><input type="text" id="firstname" required placeholder="firstname"></td>
+		</tr>
+		<tr>
+			<td><label for="lastname">lastname</label></td>
+			<td><input type="text" id="lastname" placeholder="lastname"></td>
+	    </tr>
+		<tr>
+			<td><label for= "email">email</label></td>
+			<td><input type="email" id="email" required placeholder="mail-id"></td>
+		</tr>
+		<tr>
+			<td><label for= "age">age</label></td>
+			<td><input type="age" id="age" placeholder="age"></td>
+	    </tr>
+		<tr>
+			<td><label for= "mob">mobno</label></td>
+			<td><input type="number" id="mob" required placeholder="mobilenumber"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"><label for="gender"> gender</label></td>
+			<td><input type="radio" id ="gender" name="gender" value="male">male</td>
+			<tr>
+    	    <td><input type="radio" id="gender" name="gender" value="female">female</td>
+    	</tr>
+        </tr>
+		<tr>
+	    	<td rowspan="3"><label for="hobbi">hobbies</label></td>
+	    	<td><input type="checkbox" id ="hobbi" name="hobbi"value="tv">playing</td> 
+	    	<tr>
+	    	<td><input type="checkbox" id ="hobbi" name="hobbi"value="eat">eating</td>
+	        </tr>
+	        <tr>
+	    	<td><input type="checkbox" id ="hobbi" name="hobbi"value="sleep">sleeping</td>
+	        </tr>
+	    </tr>
+		<tr>
+			<td><label for="password">password</label></td>
+			<td><input type="password" id="password" required placeholder="password"></td>
+		</tr>
+		<tr>
+			<td><label for="confirm password">confirm password</label></td>
+			<td><input type="password" id="confirm password" required placeholder="confirmpassword"></td>
+		</tr>
+		<tr>
+			<td><label>select place</label></td>
+			<td>
+				<select>
+	    		<option value="ap">ANDHRAPRADESH</option>
+	    		<option value="tn">TAMILNADU</option>
+	    		<option value="kr">KARNATAKA</option>
+	    		<option value="tL">TELENGANA</option>
+	    		<option value="mah">MAHARASTRA</option>
+	    		<option value="ker">KERALA</option>
+	    		<option value="pun">PUNJAB</option>
+    	        </select>
+    	    </td>
+		</tr>
+		<tr>
+			<td><label for ="desc">description</label></td>
+			<td><textarea rows="5" cols="20" placeholder="enter few words"></textarea></td>
+		</tr>
+		<tr>
+			<td><label for="fav">fav fruit</label></td>
+			<td>
+	    	    <input type="text" id ="fav" list="food">
+	    	    <datalist id="food">
+		    		<option value="orange">
+		    		<option value="apple">
+		    		<option value="banana">
+		    		<option value="mango">
+		    		<option value="watermelon">
+		    		<option value="strawberry">
+    	        </datalist>
+			</td>
+		</tr>
+		<tr>
+			<td align="right"><button style="height: 50px;">submitform</button></td>
+			<td align="left"><input type="reset"></td>
+	    </tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
